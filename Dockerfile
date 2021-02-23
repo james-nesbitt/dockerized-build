@@ -1,4 +1,4 @@
 FROM docker:dind
 
-RUN apk add --update alpine-sdk
+RUN apk add --no-cache --update alpine-sdk bash
 
